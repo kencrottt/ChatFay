@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Gemini Chat",
+  "description": "A mobile-first chat application built with React, Tailwind CSS, and Framer Motion. It features user registration, unique User IDs, contact management, and AI-powered reply suggestions via the Gemini API.",
+  "requestFramePermissions": []
+}
