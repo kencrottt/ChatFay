@@ -36,9 +36,9 @@ const Layout: React.FC<LayoutProps> = ({ title, children, showBackButton = false
               <ArrowLeftIcon className="w-6 h-6" />
             </button>
           )}
-          <h1 className="text-xl font-bold text-black">{title}</h1>
+          <h1 className="text-xl font-bold text-gray-200">{title}</h1>
         </div>
-        <button onClick={handleLogout} className="text-sm font-medium hover:underline text-gray-700">Logout</button> 
+        <button onClick={handleLogout} className="text-sm font-medium hover:underline text-gray-300">Logout</button> 
         {/* button itu gak usah */}
       </header>
 
@@ -52,7 +52,7 @@ const Layout: React.FC<LayoutProps> = ({ title, children, showBackButton = false
             to="/chats"
             className={({ isActive }) =>
               `flex flex-col items-center justify-center w-full p-2 rounded-lg transition-colors ${
-                isActive ? 'bg-secondary/10 text-secondary' : 'text-gray-500 hover:bg-gray-100'
+                isActive ? 'bg-secondary/10 text-secondary' : 'text-gray-500 hover:bg-gray-600'
               }`
             }
           >

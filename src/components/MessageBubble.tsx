@@ -12,7 +12,7 @@ const MessageBubble: React.FC<MessageBubbleProps> = ({ text, isSent, timestamp }
   const time = new Date(timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 
   const bubbleClasses = isSent
-    ? 'bg-primary text-white self-end'
+    ? 'bg-blue-300 text-gray-500 self-end'
     : 'bg-gray-200 text-textPrimary self-start';
   
   const animationProps = {
