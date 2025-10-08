@@ -52,7 +52,7 @@ const Layout: React.FC<LayoutProps> = ({ title, children, showBackButton = false
             to="/chats"
             className={({ isActive }) =>
               `flex flex-col items-center justify-center w-full p-2 rounded-lg transition-colors ${
-                isActive ? 'bg-secondary/10 text-secondary' : 'text-gray-500 hover:bg-gray-600'
+                isActive ? 'bg-secondary/10 text-secondary' : 'text-gray-500 hover:bg-gray-100'
               }`
             }
           >
